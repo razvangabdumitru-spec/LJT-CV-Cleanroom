@@ -1,44 +1,51 @@
-Junteng Liu — Cleaned CV summary
+Cleaned CV for Junteng Liu
 
-Name: Junteng Liu
-Email: jliugi@connect.ust.hk
-GitHub: https://github.com/Vicent0205
-Google Scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
-X account: @junteng88716710
+This repository contains a cleaned, deduplicated CV JSON (cv_clean.json) derived only from memory/memory.json.
 
-Current position
-- PhD candidate, HKUST NLP Group (2024-Present)
+Summary (counts must match cv_clean.json exactly):
+- Positions: 4
+- Education entries: 2
+- Research interests: 5
+- Publications: 6
+- Awards: 1
+- Links: 4
 
-Education (2 entries)
-- Ph.D. in Computer Science, Hong Kong University of Science and Technology (2024-Present)
-- B.Eng., Shanghai Jiao Tong University (2020-2024)
+Key items (as written in cv_clean.json):
 
-Internships (3 entries)
+Positions (most recent first):
 - Research Intern, MINIMAX (February 2025 - Present)
-- Research Intern, Tencent WXG (June 2024 - September 2024). Advisor: Zifei Shan
-- Research Intern, Shanghai AI Lab (June 2023 - December 2023). Advisor: Prof. Yu Cheng
+- Ph.D. candidate, Computer Science, Hong Kong University of Science and Technology (HKUST) / HKUST NLP Group (2024 - Present)
+- Research Intern, Tencent WXG (June 2024 - September 2024)
+- Research Intern, Shanghai AI Lab (June 2023 - December 2023)
 
-Research fields (2 entries)
-- Machine Learning
-- Natural Language Processing
+Education:
+- Ph.D. in Computer Science, Hong Kong University of Science and Technology (HKUST) (2024 - Present)
+- B.Eng., Shanghai Jiao Tong University (SJTU) (2020 - 2024); Graduated June 2024
 
-Research interests (3 entries)
+Research interests (alphabetical):
 - Hallucination in Vision-Language Models
 - LLM Reasoning and Reinforcement Learning
 - LLM Truthfulness and Interpretability
+- Machine Learning
+- Natural Language Processing
 
-Publications (6 entries)
-- On the Perception Bottleneck of VLMs for Chart Understanding (2025). ArXiv. First author: Junteng Liu. Co-authors: Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. Code repo: Vision4Chart
-- SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (2025). ArXiv. First author: Junteng Liu. Co-authors: Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. Code repo: true
-- In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation (2024). ICML 2024. Co-authors: Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He
-- On the Universal Truthfulness Hyperplane Inside LLMs (2024). EMNLP 2024. First author: Junteng Liu. Co-authors: Shiqi Chen, Yu Cheng, Junxian He. Code repo: Universal_Truthfulness_Hyperplane
-- C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models (2023). NeurIPS 2023. Co-authors: Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He
-- Composing Parameter-Efficient Modules with Arithmetic Operations (2023). NeurIPS 2023. Co-authors: Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He
+Publications (listed in cv_clean.json):
+- SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond (2025)
+- On the Perception Bottleneck of VLMs for Chart Understanding (2025)
+- On the Universal Truthfulness Hyperplane Inside LLMs (2024)
+- In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation (2024)
+- C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models (2023)
+- Composing Parameter-Efficient Modules with Arithmetic Operations (2023)
 
-Awards (1 entry)
-- Zhiyuan Honor Scholarship, awarded by Shanghai Jiao Tong University
+Award:
+- Zhiyuan Honor Scholarship (awarded by Shanghai Jiao Tong University)
 
-Deduplication notes (3 entries)
-- Kept: B.Eng., Shanghai Jiao Tong University (2020-2024). Discarded: Graduated from Shanghai Jiao Tong University (SJTU) in June 2024
-- Kept: Ph.D. in Computer Science, Hong Kong University of Science and Technology (2024-Present) and current_position merged as 'PhD candidate, HKUST NLP Group (2024-Present)'. Discarded: First-year PhD candidate at HKUST NLP Group
-- Kept: GitHub: https://github.com/Vicent0205. Discarded: GitHub: Vicent0205 (https://github.com/Vicent0205)
+Links:
+- Email: jliugi@connect.ust.hk
+- GitHub: https://github.com/Vicent0205
+- Google Scholar: https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate
+- X (Twitter): @junteng88716710
+
+Deduplication notes are included in cv_clean.json under the field "dedup_notes".
+
+Source: memory/memory.json
